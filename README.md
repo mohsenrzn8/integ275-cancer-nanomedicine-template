@@ -1,4 +1,4 @@
-# INTEG 275 — Final AI-for-Science Challenge: {TOPIC NAME}
+# INTEG 275 — Final AI-for-Science Challenge: AI for Cancer Nanomedicine
 
 This repository is the starting point for your group's final project.
 Unlike the warm-up exercise, there is no single correct answer here.
@@ -12,7 +12,7 @@ working routine.
 ## What's in this repository
 
 ```
-{your topic's CSV data file(s)}  the dataset (see "About the data")
+nanoparticle_chemotherapy_simulations.csv  the dataset (see "About the data")
 AGENTS.md                        instructions Copilot reads automatically
 ANALYSIS_LOG.md                  your group's shared record of decisions
                                  and results — you will edit this often
@@ -149,7 +149,7 @@ A reasonable working loop:
 3. Run your script from the project root and check that the output
    is sensible before trusting it.
 4. Save figures to `outputs/` with descriptive names, for example
-   `outputs/rainfall_by_month.png`.
+   `outputs/treatment_response.png`.
 5. Record what you did and what you concluded in `ANALYSIS_LOG.md`.
 
 Resist the temptation to ask for the whole analysis at once. You are
@@ -220,12 +220,14 @@ Keep the repository **Private**. Do not share it with other groups.
 
 ## About the data
 
-{Replace this section for each topic.}
+- **Dataset:** `nanoparticle_chemotherapy_simulations.csv`. Contains 250 computational simulations of nanoparticle-based intraperitoneal chemotherapy, with treatment response evaluated after 24 hours.
+- **Source and link:** Computational simulation data from ongoing research by Dr. Mohsen Rezaeian and collaborators. No public dataset link is available.
+- **Collected by / citation:** Dr. Mohsen Rezaeian and collaborators. Unpublished computational research data.
+- **Licence or terms of use:** Restricted to educational use within INTEG 275. The dataset must not be publicly shared, distributed, published, or uploaded to public repositories without permission. For permission requests, contact [m6rezaei@uwaterloo.ca](mailto\:m6rezaei@uwaterloo.ca).
 
-- **Dataset:**
-- **Source and link:**
-- **Collected by / citation:**
-- **Licence or terms of use:**
+The dataset includes nanoparticle size, retention index, drug-release rate, drug–cell association rate, and percentage of cancer cells killed after 24 hours.
+
+Students should treat the original dataset as read-only and save generated outputs separately.
 
 The data files in this repository are a fixed copy provided for this
 course. Do not download replacement data and do not edit the data files.
