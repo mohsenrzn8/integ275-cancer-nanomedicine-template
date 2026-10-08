@@ -1,0 +1,7 @@
+# Core libraries for this project.
+# Install them into the project's virtual environment with:
+#   python -m pip install -r requirements.txt
+
+pandas>=2.2
+matplotlib>=3.8
+scikit-learn>=1.4
